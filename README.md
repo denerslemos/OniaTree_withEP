@@ -29,5 +29,6 @@ cp -r /afs/cern.ch/work/d/ddesouza/public/ForOniaTree_pPb/HiOniaAnalyzer.cc $CMS
 cp -r /afs/cern.ch/work/d/ddesouza/public/ForOniaTree_pPb/workstation $CMSSW_BASE/src/HiAnalysis/HiOnia/test/
 
 scram b -j 12
+
 cd $CMSSW_BASE/src/HiAnalysis/HiOnia/test/workstation
 ```
