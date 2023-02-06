@@ -3,6 +3,7 @@
 Intructions to run onia tree framework in pPb including the Event plane information after flattening and also saves PU filters as integers (0 is bad event and 1 is good event) that can be applied later in analysis. 
 
 ```
+# Adapted from https://twiki.cern.ch/twiki/bin/viewauth/CMS/HiDileptonWorkingAreaSetting#CMSSW_80X
 cmsrel CMSSW_8_0_26_patch2
 cd CMSSW_8_0_26_patch2/src/
 cmsenv
