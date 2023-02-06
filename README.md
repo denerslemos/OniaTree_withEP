@@ -16,6 +16,7 @@ git cms-addpkg RecoHI/Configuration
 
 # Adding EP information and flattening
 cp -r /afs/cern.ch/work/d/ddesouza/public/ForOniaTree_pPb/CondFormats $CMSSW_BASE/src/
+cp -r /afs/cern.ch/work/d/ddesouza/public/ForOniaTree_pPb/HiEvtPlaneAlgos $CMSSW_BASE/src/RecoHI/
 cp -r /afs/cern.ch/work/d/ddesouza/public/ForOniaTree_pPb/HiEvtPlaneCalib $CMSSW_BASE/src/HeavyIonsAnalysis/
 cp -r /afs/cern.ch/work/d/ddesouza/public/ForOniaTree_pPb/QWNtrkOfflineProducer $CMSSW_BASE/src/HeavyIonsAnalysis/
 cp -r /afs/cern.ch/work/d/ddesouza/public/ForOniaTree_pPb/VNAnalysis $CMSSW_BASE/src/HeavyIonsAnalysis/
