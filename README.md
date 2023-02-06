@@ -25,4 +25,7 @@ cp -r /afs/cern.ch/work/d/ddesouza/public/ForOniaTree_pPb/HiOniaAnalyzer.cc $CMS
 
 # Adding new cfg and crab ( you can work in the workstation folder :) )
 cp -r /afs/cern.ch/work/d/ddesouza/public/ForOniaTree_pPb/workstation $CMSSW_BASE/src/HiAnalysis/HiOnia/test/
+
+scram b -j 12
+cd $CMSSW_BASE/src/HiAnalysis/HiOnia/test/workstation
 ```
