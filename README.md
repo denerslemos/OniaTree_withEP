@@ -32,3 +32,6 @@ scram b -j 12
 
 cd $CMSSW_BASE/src/HiAnalysis/HiOnia/test/workstation
 ```
+
+DATA includes the files for pgoing and Pbgoing data.
+MC still need to be tunned.
